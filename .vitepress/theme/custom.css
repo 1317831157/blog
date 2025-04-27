@@ -1,0 +1,73 @@
+:root {
+  --vp-c-brand: #646cff;
+  --vp-c-brand-light: #747bff;
+  --vp-c-brand-lighter: #9499ff;
+  --vp-c-brand-dark: #535bf2;
+  --vp-c-brand-darker: #454ce1;
+  --vp-c-brand-dimm: rgba(100, 108, 255, 0.08);
+
+  --vp-font-family-base:
+    "Inter", "Noto Sans SC", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  --vp-font-family-mono: "Fira Code", "JetBrains Mono", source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.dark {
+  --vp-c-bg: #1a1a1a;
+  --vp-c-bg-soft: #242424;
+  --vp-c-bg-mute: #2f2f2f;
+}
+
+body {
+  font-family: var(--vp-font-family-base);
+  line-height: 1.7;
+}
+
+.VPHero .image-bg {
+  opacity: 0.8;
+  filter: blur(72px);
+}
+
+.VPHero .image-container .image-src {
+  border-radius: 50%;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+}
+
+.VPFeatures .VPFeature {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.VPFeatures .VPFeature:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+
+.VPFeatures .icon {
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  background-color: var(--vp-c-brand-dimm);
+  color: var(--vp-c-brand);
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+.VPNavBar {
+  backdrop-filter: blur(8px);
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.dark .VPNavBar {
+  background-color: rgba(36, 36, 36, 0.9);
+}
+
+.VPNavBar .VPNavBarTitle .title {
+  font-weight: 700;
+  background: linear-gradient(120deg, #bd34fe, #41d1ff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
