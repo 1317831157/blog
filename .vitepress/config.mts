@@ -3,6 +3,8 @@ import { defineConfig } from "vitepress"
 export default defineConfig({
   title: "我的个人博客",
   description: "分享我的思考与经验",
+  base: "/",
+  ignoreDeadLinks: true,
   themeConfig: {
     logo: "/images/logo.png",
     nav: [
