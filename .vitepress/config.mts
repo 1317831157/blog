@@ -8,7 +8,7 @@ export default defineConfig({
     nav: [
       { text: "首页", link: "/" },
       { text: "文章", link: "/articles/" },
-      { text: "项目", link: "/projects/" },
+      // { text: "项目", link: "/projects/" },
       { text: "关于", link: "/about/" },
     ],
     sidebar: {
@@ -61,7 +61,6 @@ export default defineConfig({
       { icon: "linkedin", link: "https://linkedin.com/in/yourusername" },
     ],
     footer: {
-      message: "用 VitePress 搭建",
       copyright: "Copyright © 2025 我的个人博客",
     },
   },

@@ -50,10 +50,10 @@ _2016 年 - 2020 年_
 
 ## 联系方式
 
-- 邮箱: your.email@example.com
-- GitHub: [github.com/yourusername](https://github.com/yourusername)
-- Twitter: [@yourusername](https://twitter.com/yourusername)
-- LinkedIn: [linkedin.com/in/yourusername](https://linkedin.com/in/yourusername)
+<!-- <div align=center><img src="\images\weChat.jpg" width = 200 height = 200></div> -->
+
+<!-- - GitHub: [github.com/yourusername](https://github.com/yourusername) -->
+<!-- - Twitter: [@liangzaicom](https://x.com/liangzaicom) -->
 
 ## 个人爱好
 
@@ -65,5 +65,3 @@ _2016 年 - 2020 年_
 - ✈️ 旅行探索新地方
 
 ---
-
-如果你对我的项目或文章有任何问题，或者想要合作，欢迎随时联系我！

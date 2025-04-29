@@ -29,10 +29,10 @@ features:
     title: 读书笔记
     details: 分享我读过的好书和从中获得的启发
     link: /articles/books/
-  - icon: 🔮
-    title: 项目展示
-    details: 展示我的个人项目和作品集
-    link: /projects/
+  # - icon: 🔮
+  #   title: 项目展示
+  #   details: 展示我的个人项目和作品集
+  #   link: /projects/
 ---
 
 <script setup>
@@ -86,14 +86,14 @@ const posts = ref([
   </div>
 </div>
 
-<div class="newsletter-section">
+<!-- <div class="newsletter-section">
   <h2>订阅我的博客</h2>
   <p>获取最新文章和更新通知</p>
   <div class="newsletter-form">
     <input type="email" placeholder="您的邮箱地址" />
     <button>订阅</button>
   </div>
-</div>
+</div> -->
 
 <style>
 :root {
